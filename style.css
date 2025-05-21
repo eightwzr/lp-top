@@ -8,7 +8,7 @@ box-sizing: border-box;
 * {
 margin: 0;
 padding: 0;
-border: 1px solid red;
+/* border: 1px solid red; */
 }
 
 body {
@@ -20,10 +20,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.sectext, li {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
 .segment1 {  
     display: flex;
     justify-content: center;
     background-color: #1F2937 ;
+    height: 500px;
 }
 .segment1-flex {
     display: flex;
@@ -36,7 +48,7 @@ body {
     /* max-width: 1300px; */
     /* flex: 1; */
     display: flex;
-    /* margin: 0 auto; */
+    margin-top: 10px;
     justify-content: center;
     /* flex-direction: column; */
 }
@@ -47,19 +59,20 @@ body {
     display: flex;
     gap: 30px;
     align-items: center;
-    
 }
+
 
 .logo {
     font-weight: 900;
-    font-size: 1.2em;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .banner {
     max-width: 1300px;
     background-color: #1F2937 ;
     display: flex;
-    height: 40vh;
+    height: 500px;
     justify-content: center;
     align-items: center;
     /* flex: 1; */
@@ -77,13 +90,15 @@ h1, p, button {
 
 .hero-image {
     display: flex;
-    flex-basis: 50%;
+    /* /* flex-basis: 50%; */
+    width: 600px;
     /* align-items: center; */
     justify-content: center;
 }
 
 .hero-image img {
-    width: 200px;
+    width: 600px;
+    height: 300px;
 }
 
 .sign {
@@ -97,6 +112,8 @@ h1, p, button {
 .segment2 {
     display: flex;
     justify-content: center;   
+    height: 500px;
+    align-items: center;
     
 }
 
@@ -126,6 +143,7 @@ h1, p, button {
     display: flex;
     justify-content: space-between;
     gap: 20px;  
+    flex-wrap: wrap;
     /* flex: 1;       */
 }
 
@@ -136,7 +154,7 @@ h1, p, button {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    /* flex: 1; */
+    flex: 1;
 }
 
 .kafel img {
@@ -147,9 +165,93 @@ h1, p, button {
 }
 
 .kafel p {
-        color: #1F2937;   
+    color: #1F2937;   
     text-align: center;
     font-size: 15px;
     font-weight: 100;
+    }
+
+.segment3 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: #E5e7eb;
+    /* padding: 60px; */
+    height: 500px;
+    align-items: center;
+}
+
+.segment3-flex {
+    max-width: 1300px;
+}
+
+.cytat {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    }
+
+.cytat, .podpis {
+    color: #1f2937;
+    max-width: 1000px;
     
+}
+
+.podpis {
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    font-weight: 800;
+}
+
+.segment4 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.segment4-flex {
+    max-width: 1300px;
+}
+
+.cta {
+    display: flex;
+    width: 1200px;
+    /* flex-shrink: 3; */
+    /* flex-basis: 1200px; */
+    background-color: #3882f6;
+    padding: 30px 100px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.ctahead {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.ctatext {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.ctabutton {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footertext {
 }
