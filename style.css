@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+
+}
+
+* {
+margin: 0;
+padding: 0;
+border: 1px solid red;
+}
+
+body {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 0 auto;  
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.segment1 {  
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937 ;
+}
+.segment1-flex {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 1300px;
+}
+
+.header {
+    /* max-width: 1300px; */
+    /* flex: 1; */
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.menu {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.banner {
+    max-width: 1300px;
+    background-color: #1F2937 ;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+    gap: 10px
+}
+
+.hero-text {
+    flex-basis: 50%;
+}
+
+.hero-text 
+h1, p, button {
+    margin-bottom: 10px;
+}
+
+.hero-image {
+    display: flex;
+    flex-basis: 50%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 200px;
+}
+
+.sign {
+    padding: 8px 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.segment2 {
+    display: flex;
+    justify-content: center;   
+    
+}
+
+.segment2-flex {
+    max-width: 1300px;
+}
+
+.references {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vh;
+    
+}
+
+.ref-h1 {
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+    /* font-size: 36px; */
+    margin-bottom: 30px;
+}
+
+.kafle {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+    /* flex: 1;       */
+}
+
+
+.kafel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex: 1; */
+}
+
+.kafel img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+.kafel p {
+        color: #1F2937;   
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
